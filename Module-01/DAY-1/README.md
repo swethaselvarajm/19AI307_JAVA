@@ -20,7 +20,7 @@ To create a class named 'Student' with String variable 'name' and String variabl
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: Swetha S
+Developed by: SWETHA S
 RegisterNumber: 212222230155
 */
 ```
@@ -28,24 +28,27 @@ RegisterNumber: 212222230155
 ## Sourcecode.java:
 
 ```
-class Student
-{
-    String name;
-    String address;
-}
-public class Main
-{
-    public static void main(String[] args)
-   {
-        Student obj= new Student();        
-        obj.name="John";
-        obj.address="Chennai";
-        System.out.println(obj.name+" "+obj.address);
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
+        System.out.println("Hello, "+s);
     }
 }
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/4eeffebe-7759-467e-bf87-ccd21a978cdf)
+
+<img width="494" height="263" alt="image" src="https://github.com/user-attachments/assets/cc1dd19e-8082-4289-aa75-941a6345a83d" />
+
 ## RESULT:
+
+The program successfully writes a java program to get name from the user and print it.
+
+## RESULT:
+
 Thus, the class named 'Student' with String variable 'name' and String variable 'address' was created successfully.
+
+
+
